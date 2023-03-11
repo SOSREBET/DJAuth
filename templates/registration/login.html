@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% load static widget_tweaks i18n %}
+
+{% block title %}{% trans "Log in" %}{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="card white-text mt-3">
+            <div class="card-header fs-5 text-center">{% trans "Log in" %}</div>
+            <div class="card-body">
+                <div class="alert alert-danger d-none" role="alert" id="error_L"></div>
+                <form action="{% url 'login' %}" method="post" id="LForm">{% csrf_token %}
+
+                    <div class="mb-3">
+                        <label for="{{ form.username.id_for_label }}" class="form-label">{{ form.username.label }}</label>
+                        {% render_field login.username type="text" class="form-control" spellcheck='false' autocomplete='email' %}
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="{{ form.password.id_for_label }}" class="form-label">{{ form.password.label }}</label>
+                        {% render_field login.password type="password" class="form-control" autocomplete='current-password' %}
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="form-check">
+                            <label for="{{ form.remember_me.id_for_label }}" class="form-check-label white-text">{{ form.remember_me.label }}</label>
+                            {% render_field login.remember_me type="checkbox" class="form-check-input" checked='true' %}
+                        </div>
+                        <div>
+                            <a class="reference" href="{% url 'password_reset' %}">{% trans "Forgot password?" %}</a>
+                        </div>
+                    </div>
+
+                </form> 
+            </div>
+            <div class="card-footer text-end">
+                <a href="{% url 'signup' %}" class="btn btn-secondary" role="button">{% trans "Sign up" %}</a>
+                <button type="button" class="btn btn-primary" id="LSubmit">{% trans "Log in" %}</button>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/login.js' %}"></script>
+{% endblock %}

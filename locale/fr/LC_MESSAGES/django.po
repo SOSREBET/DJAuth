@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-10 16:24+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: Project/settings.py:148
+msgid "English"
+msgstr "Anglais"
+
+#: Project/settings.py:149
+msgid "Russia"
+msgstr "Russie"
+
+#: Project/settings.py:150
+msgid "German"
+msgstr "Allemand"
+
+#: Project/settings.py:151
+msgid "French"
+msgstr "Français"
+
+#: Project/settings.py:152
+msgid "Japanese"
+msgstr "Japonais"
+
+#: Project/settings.py:153
+msgid "Turkish"
+msgstr "Turc"
+
+#: Project/settings.py:154
+msgid "Ukrainian"
+msgstr "Ukrainien"
+
+#: menu/templates/menu/hub.html:5
+msgid "Menu"
+msgstr "Menu"
+
+#: menu/templates/menu/hub.html:10
+msgid "You need to login to your account"
+msgstr "Vous devez vous connecter à votre compte"
+
+#: menu/templates/menu/hub.html:18
+msgid "Last entrance"
+msgstr "Dernière entrée"
+
+#: menu/templates/menu/hub.html:19
+#: templates/registration/password_change_form.html:33
+#: templates/registration/password_reset_confirm.html:33
+#: templates/registration/password_reset_email.html:14
+msgid "Change password"
+msgstr "Changer le mot de passe"
+
+#: menu/templates/menu/hub.html:20
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: policy/templates/policy/policy.html:5 policy/templates/policy/policy.html:15
+msgid "Privacy Policy"
+msgstr "politique de confidentialité"
+
+#: policy/templates/policy/policy.html:17
+msgid ""
+"The privacy policy applies to the DJAuth website. The data will be processed "
+"by the agent."
+msgstr ""
+"La politique de confidentialité s'applique au site Web de Djauth.Les données seront traitées par l'agent."
+
+#: policy/templates/policy/policy.html:18
+msgid "Consent is given by ticking the box on the site."
+msgstr "Le consentement est donné en cochant la case sur le site."
+
+#: policy/templates/policy/policy.html:19
+msgid "The user guarantees that he is of legal age."
+msgstr "L'utilisateur garantit qu'il a un âge légal."
+
+#: policy/templates/policy/policy.html:20
+msgid ""
+"The purpose of data processing is registration and (or) provision of "
+"services."
+msgstr ""
+"L'objectif du traitement des données est l'enregistrement et (ou) la prestation de services."
+
+#: policy/templates/policy/policy.html:21
+msgid "Mail is being processed (automated processing method) for registration."
+msgstr "Le courrier est en cours de traitement (méthode de traitement automatisée) pour l'enregistrement."
+
+#: policy/templates/policy/policy.html:22
+msgid "Personal data is destroyed if the user's account becomes inactive."
+msgstr "Les données personnelles sont détruites si le compte de l'utilisateur devient inactif."
+
+#: policy/templates/policy/policy.html:24
+#: templates/registration/confirm_email.html:18
+#: templates/registration/password_change_done.html:12
+#: templates/registration/password_reset_confirm.html:44
+#: templates/registration/password_reset_done.html:18
+msgid "To main"
+msgstr "Au principal"
+
+#: templates/include/modal_login.html:3 templates/include/modal_login.html:10
+#: templates/include/modal_login.html:43
+#: templates/registration/invalid_verify.html:13
+#: templates/registration/login.html:5 templates/registration/login.html:10
+#: templates/registration/login.html:39 templates/registration/register.html:42
+msgid "Log in"
+msgstr "Connexion"
+
+#: templates/include/modal_login.html:35 templates/registration/login.html:31
+msgid "Forgot password?"
+msgstr "Mot de passe oublié?"
+
+#: templates/include/modal_login.html:42 templates/registration/login.html:38
+#: templates/registration/register.html:5
+#: templates/registration/register.html:10
+#: templates/registration/register.html:43
+msgid "Sign up"
+msgstr "S'inscrire"
+
+#: templates/registration/confirm_email.html:5
+#: templates/registration/confirm_email.html:11
+#: templates/registration/password_reset_done.html:5
+#: templates/registration/password_reset_done.html:11
+msgid "Letter sent"
+msgstr "Lettre envoyée"
+
+#: templates/registration/confirm_email.html:13
+msgid "We have sent you an email to the email address you provided."
+msgstr "Nous vous avons envoyé un e-mail à l'adresse e-mail que vous avez fournie."
+
+#: templates/registration/confirm_email.html:14
+#: templates/registration/password_reset_done.html:14
+msgid "You should receive it soon."
+msgstr "Vous devriez le recevoir bientôt."
+
+#: templates/registration/confirm_email.html:15
+msgid ""
+"If you do not receive an email, please make sure your email address is "
+"spelled correctly and check your spam."
+msgstr ""
+"Si vous ne recevez pas d'e-mail, assurez-vous que votre adresse e-mail est correctement orthographiée et vérifiez votre spam."
+
+#: templates/registration/confirm_email.html:17
+msgid "You can close this page"
+msgstr "Vous pouvez fermer cette page"
+
+#: templates/registration/invalid_verify.html:5
+#: templates/registration/invalid_verify.html:11
+msgid "Confirmation error"
+msgstr "Erreur de confirmation"
+
+#: templates/registration/invalid_verify.html:12
+msgid "Your link is invalid, please try again"
+msgstr "Votre lien n'est pas valide, veuillez réessayer"
+
+#: templates/registration/password_change_done.html:5
+#: templates/registration/password_change_done.html:11
+#: templates/registration/password_reset_complete.html:5
+msgid "Password changed"
+msgstr "Mot de passe changé"
+
+#: templates/registration/password_change_form.html:5
+#: templates/registration/password_change_form.html:10
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_confirm.html:16
+msgid "New Password"
+msgstr "nouveau mot de passe"
+
+#: templates/registration/password_reset_complete.html:11
+msgid "Password recovery completed"
+msgstr "Récupération de mot de passe terminée"
+
+#: templates/registration/password_reset_complete.html:12
+msgid "Your password has been saved. Now you can login"
+msgstr "Votre mot de passe a été enregistré.Maintenant, vous pouvez vous connecter"
+
+#: templates/registration/password_reset_complete.html:13
+msgid "Log In"
+msgstr "Connexion"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify it is spelled "
+"correctly."
+msgstr ""
+"Veuillez saisir deux fois votre nouveau mot de passe afin que nous puissions vérifier qu'il est correctement orthographié."
+
+#: templates/registration/password_reset_confirm.html:40
+msgid "Invalid URL"
+msgstr "URL invalide"
+
+#: templates/registration/password_reset_confirm.html:42
+msgid ""
+"The password reset link is incorrect, it may have already been used. Please "
+"request a password change again."
+msgstr ""
+"Le lien de réinitialisation du mot de passe est incorrect, il a peut-être déjà été utilisé.Veuillez demander à nouveau un changement de mot de passe."
+
+#: templates/registration/password_reset_done.html:13
+msgid ""
+"We have sent you instructions on how to set a new password to the email "
+"address you provided."
+msgstr ""
+"Nous vous avons envoyé des instructions sur la façon de définir un nouveau mot de passe sur l'adresse e-mail que vous avez fournie."
+
+#: templates/registration/password_reset_done.html:15
+msgid ""
+"If you do not receive an email, please make sure you enter the email address "
+"you registered with and check your spam folder."
+msgstr ""
+"Si vous ne recevez pas d'e-mail, assurez-vous de saisir l'adresse e-mail avec laquelle vous avez enregistré et de vérifier votre dossier de spam."
+
+#: templates/registration/password_reset_done.html:17
+msgid "You can close this tab"
+msgstr "Vous pouvez fermer cet onglet"
+
+#: templates/registration/password_reset_email.html:8
+msgid ""
+"You’re receiving this email because you requested a password reset for your "
+"user account at"
+msgstr ""
+"Vous recevez cet e-mail parce que vous avez demandé une réinitialisation de mot de passe pour votre compte d'utilisateur à"
+
+#: templates/registration/password_reset_email.html:11
+msgid "Please go to the following page and choose a new password:"
+msgstr "Veuillez accéder à la page suivante et choisir un nouveau mot de passe:"
+
+#: templates/registration/password_reset_email.html:19
+msgid "Your username, in case you’ve forgotten:"
+msgstr "Votre nom d'utilisateur, au cas où vous auriez oublié:"
+
+#: templates/registration/password_reset_email.html:20
+msgid "Thanks for using our site!"
+msgstr "Merci d'utiliser notre site!"
+
+#: templates/registration/password_reset_email.html:23
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "L'équipe %(site_name)s"
+
+#: templates/registration/password_reset_form.html:5
+#: templates/registration/password_reset_form.html:10 user/utils.py:42
+msgid "Password reset"
+msgstr "Réinitialisation du mot de passe"
+
+#: templates/registration/password_reset_form.html:23
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: templates/registration/verify_email.html:8
+msgid "You received this email because you signed up for"
+msgstr "Vous avez reçu cet e-mail parce que vous vous êtes inscrit à"
+
+#: templates/registration/verify_email.html:11
+msgid "Please follow the link to verify your email"
+msgstr "Veuillez suivre le lien pour vérifier votre e-mail"
+
+#: templates/registration/verify_email.html:14
+msgid "Confirm mail"
+msgstr "Confirmer le courrier"
+
+#: templates/registration/verify_email.html:17
+msgid "If you did not provide your address - just ignore this letter."
+msgstr "Si vous n'avez pas fourni votre adresse - ignorez simplement cette lettre."
+
+#: user/forms.py:19 user/forms.py:20
+msgid "Confirm that you are not a robot."
+msgstr "Confirmez que vous n'êtes pas un robot."
+
+#: user/forms.py:21
+msgid "Pass captcha."
+msgstr "Passer le captcha."
+
+#: user/forms.py:29
+msgid ""
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and -/_/. characters."
+msgstr ""
+"Entrez un nom d'utilisateur valide.Cette valeur ne peut contenir que des lettres anglaises, des nombres et - / _ /.personnages."
+
+#: user/forms.py:38
+msgid ""
+"Enter a valid password. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
+msgstr ""
+"Entrez un mot de passe valide.Cette valeur ne peut contenir que des lettres anglaises, des nombres et @ /. / + / - / _ caractères."
+
+#: user/forms.py:64
+#, python-format
+msgid "I accept <a class=\"reference\" href=\"%s\">the privacy policy</a>"
+msgstr "J'accepte <a class=\"reference\", href=\"%s\"> La politique de confidentialité </a>"
+
+#: user/forms.py:69 user/forms.py:106 user/forms.py:111 user/models.py:10
+msgid "username"
+msgstr "nom d'utilisateur"
+
+#: user/forms.py:70 user/forms.py:141
+msgid "Email"
+msgstr "E-mail"
+
+#: user/forms.py:71 user/forms.py:107
+msgid "Password"
+msgstr "Mot de passe"
+
+#: user/forms.py:72
+msgid "Password confirmation"
+msgstr "Confirmation mot de passe"
+
+#: user/forms.py:98
+#, python-format
+msgid ""
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive."
+msgstr ""
+"Veuillez saisir un %(username)s correct et un mot de passe.Noter que les deux champs peuvent être sensibles à la casse."
+
+#: user/forms.py:101
+msgid "This account is inactive."
+msgstr "Ce compte est inactif."
+
+#: user/forms.py:108
+msgid "Remember me"
+msgstr "Souviens-toi de moi"
+
+#: user/forms.py:118
+msgid ""
+"You are asking for email confirmation too often. Please wait a bit and try "
+"again."
+msgstr ""
+"Vous demandez trop souvent la confirmation par e-mail.Veuillez attendre un peu et réessayer."
+
+#: user/forms.py:122
+msgid "Your email address has not been verified. Check your mail."
+msgstr "Votre adresse e-mail n'a pas été vérifiée.Vérifier votre courrier."
+
+#: user/forms.py:166
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: user/forms.py:173
+msgid "New password confirmation"
+msgstr "Confirmation du nouveau mot de passe"
+
+#: user/forms.py:194
+msgid "Old password"
+msgstr "Ancien mot de passe"
+
+#: user/forms.py:211
+msgid "The new password must be different from the old one."
+msgstr "Le nouveau mot de passe doit être différent de l'ancien."
+
+#: user/models.py:11
+msgid "Required. 150 characters or fewer. Letters, digits and -/_/. only."
+msgstr "Requis.150 caractères ou moins.Lettres, chiffres et - / _ /.seul."
+
+#: user/models.py:14
+msgid "A user with that username already exists."
+msgstr "Un utilisateur avec ce pseudo existe déjà."
+
+#: user/models.py:15
+msgid "email address"
+msgstr "adresse e-mail"
+
+#: user/models.py:15
+msgid "This mail is busy."
+msgstr "Ce courrier est occupé."
+
+#: user/models.py:16
+msgid "Confirmed mail"
+msgstr "Courrier confirmé"
+
+#: user/models.py:17
+msgid "password"
+msgstr "mot de passe"
+
+#: user/models.py:18
+msgid "Time when the last confirmation email was sent"
+msgstr "Heure où le dernier e-mail de confirmation a été envoyé"
+
+#: user/utils.py:30
+msgid "Email confirmation"
+msgstr "Confirmation de l'émail"
+
+#: user/views.py:53
+msgid "Try again in: "
+msgstr "Réessayez dans:"

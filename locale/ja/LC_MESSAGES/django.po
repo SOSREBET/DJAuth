@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-10 16:24+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: Project/settings.py:148
+msgid "English"
+msgstr "英語英国人英語の"
+
+#: Project/settings.py:149
+msgid "Russia"
+msgstr "ロシア魯国蘇連"
+
+#: Project/settings.py:150
+msgid "German"
+msgstr "ドイツ人ドイツのドイツ人の"
+
+#: Project/settings.py:151
+msgid "French"
+msgstr "フランス語フランス人フランスの"
+
+#: Project/settings.py:152
+msgid "Japanese"
+msgstr "日本日本語日本人"
+
+#: Project/settings.py:153
+msgid "Turkish"
+msgstr "トルコ語トルコのトルコ人の"
+
+#: Project/settings.py:154
+msgid "Ukrainian"
+msgstr "ウクライナ人"
+
+#: menu/templates/menu/hub.html:5
+msgid "Menu"
+msgstr "メニュー"
+
+#: menu/templates/menu/hub.html:10
+msgid "You need to login to your account"
+msgstr "アカウントにログインする必要があります"
+
+#: menu/templates/menu/hub.html:18
+msgid "Last entrance"
+msgstr "最後の入り口"
+
+#: menu/templates/menu/hub.html:19
+#: templates/registration/password_change_form.html:33
+#: templates/registration/password_reset_confirm.html:33
+#: templates/registration/password_reset_email.html:14
+msgid "Change password"
+msgstr "パスワードを変更する"
+
+#: menu/templates/menu/hub.html:20
+msgid "Log out"
+msgstr "ログアウト"
+
+#: policy/templates/policy/policy.html:5 policy/templates/policy/policy.html:15
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: policy/templates/policy/policy.html:17
+msgid ""
+"The privacy policy applies to the DJAuth website. The data will be processed "
+"by the agent."
+msgstr ""
+"プライバシーポリシーは、DJAUTH Webサイトに適用されます。データはエージェントによって処理されます。"
+
+#: policy/templates/policy/policy.html:18
+msgid "Consent is given by ticking the box on the site."
+msgstr "サイトのボックスを刻むことにより、同意が与えられます。"
+
+#: policy/templates/policy/policy.html:19
+msgid "The user guarantees that he is of legal age."
+msgstr "ユーザーは、彼が法定年齢であることを保証します。"
+
+#: policy/templates/policy/policy.html:20
+msgid ""
+"The purpose of data processing is registration and (or) provision of "
+"services."
+msgstr ""
+"データ処理の目的は、登録と（または）サービスの提供です。"
+
+#: policy/templates/policy/policy.html:21
+msgid "Mail is being processed (automated processing method) for registration."
+msgstr "メールは登録のために処理されています（自動処理方法）。"
+
+#: policy/templates/policy/policy.html:22
+msgid "Personal data is destroyed if the user's account becomes inactive."
+msgstr "ユーザーのアカウントが非アクティブになった場合、個人データは破壊されます。"
+
+#: policy/templates/policy/policy.html:24
+#: templates/registration/confirm_email.html:18
+#: templates/registration/password_change_done.html:12
+#: templates/registration/password_reset_confirm.html:44
+#: templates/registration/password_reset_done.html:18
+msgid "To main"
+msgstr "メインへ"
+
+#: templates/include/modal_login.html:3 templates/include/modal_login.html:10
+#: templates/include/modal_login.html:43
+#: templates/registration/invalid_verify.html:13
+#: templates/registration/login.html:5 templates/registration/login.html:10
+#: templates/registration/login.html:39 templates/registration/register.html:42
+msgid "Log in"
+msgstr "ログイン"
+
+#: templates/include/modal_login.html:35 templates/registration/login.html:31
+msgid "Forgot password?"
+msgstr "パスワードをお忘れですか？"
+
+#: templates/include/modal_login.html:42 templates/registration/login.html:38
+#: templates/registration/register.html:5
+#: templates/registration/register.html:10
+#: templates/registration/register.html:43
+msgid "Sign up"
+msgstr "サインアップ"
+
+#: templates/registration/confirm_email.html:5
+#: templates/registration/confirm_email.html:11
+#: templates/registration/password_reset_done.html:5
+#: templates/registration/password_reset_done.html:11
+msgid "Letter sent"
+msgstr "送信された手紙"
+
+#: templates/registration/confirm_email.html:13
+msgid "We have sent you an email to the email address you provided."
+msgstr "提供されたメールアドレスにメールを送信しました。"
+
+#: templates/registration/confirm_email.html:14
+#: templates/registration/password_reset_done.html:14
+msgid "You should receive it soon."
+msgstr "すぐに受け取る必要があります。"
+
+#: templates/registration/confirm_email.html:15
+msgid ""
+"If you do not receive an email, please make sure your email address is "
+"spelled correctly and check your spam."
+msgstr ""
+"メールが届かない場合は、メールアドレスが正しく綴られていることを確認し、スパムを確認してください。"
+
+#: templates/registration/confirm_email.html:17
+msgid "You can close this page"
+msgstr "このページを閉じることができます"
+
+#: templates/registration/invalid_verify.html:5
+#: templates/registration/invalid_verify.html:11
+msgid "Confirmation error"
+msgstr "確認エラー"
+
+#: templates/registration/invalid_verify.html:12
+msgid "Your link is invalid, please try again"
+msgstr "リンクが無効です。もう一度やり直してください"
+
+#: templates/registration/password_change_done.html:5
+#: templates/registration/password_change_done.html:11
+#: templates/registration/password_reset_complete.html:5
+msgid "Password changed"
+msgstr "パスワード変更済み"
+
+#: templates/registration/password_change_form.html:5
+#: templates/registration/password_change_form.html:10
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_confirm.html:16
+msgid "New Password"
+msgstr "新しいパスワード"
+
+#: templates/registration/password_reset_complete.html:11
+msgid "Password recovery completed"
+msgstr "パスワードの回復が完了しました"
+
+#: templates/registration/password_reset_complete.html:12
+msgid "Your password has been saved. Now you can login"
+msgstr "パスワードは保存されています。これで、ログインできます"
+
+#: templates/registration/password_reset_complete.html:13
+msgid "Log In"
+msgstr "ログイン"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify it is spelled "
+"correctly."
+msgstr ""
+"新しいパスワードを2回入力して、それが正しく綴られていることを確認できます。"
+
+#: templates/registration/password_reset_confirm.html:40
+msgid "Invalid URL"
+msgstr "無効なURL"
+
+#: templates/registration/password_reset_confirm.html:42
+msgid ""
+"The password reset link is incorrect, it may have already been used. Please "
+"request a password change again."
+msgstr ""
+"パスワードリセットリンクが正しくないため、すでに使用されている可能性があります。パスワードの変更をもう一度リクエストしてください。"
+
+#: templates/registration/password_reset_done.html:13
+msgid ""
+"We have sent you instructions on how to set a new password to the email "
+"address you provided."
+msgstr ""
+"提供されたメールアドレスに新しいパスワードを設定する方法に関する指示をお送りしました。"
+
+#: templates/registration/password_reset_done.html:15
+msgid ""
+"If you do not receive an email, please make sure you enter the email address "
+"you registered with and check your spam folder."
+msgstr ""
+"メールが届かない場合は、登録したメールアドレスを入力して、スパムフォルダーを確認してください。"
+
+#: templates/registration/password_reset_done.html:17
+msgid "You can close this tab"
+msgstr "このタブを閉じることができます"
+
+#: templates/registration/password_reset_email.html:8
+msgid ""
+"You’re receiving this email because you requested a password reset for your "
+"user account at"
+msgstr ""
+"ユーザーアカウントにパスワードリセットをリクエストしたため、このメールを受信しています"
+
+#: templates/registration/password_reset_email.html:11
+msgid "Please go to the following page and choose a new password:"
+msgstr "次のページにアクセスして、新しいパスワードを選択してください。"
+
+#: templates/registration/password_reset_email.html:19
+msgid "Your username, in case you’ve forgotten:"
+msgstr "あなたのユーザー名、あなたが忘れた場合に備えて："
+
+#: templates/registration/password_reset_email.html:20
+msgid "Thanks for using our site!"
+msgstr "私たちのサイトを使ってくれてありがとう！"
+
+#: templates/registration/password_reset_email.html:23
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "%(site_name)sチーム"
+
+#: templates/registration/password_reset_form.html:5
+#: templates/registration/password_reset_form.html:10 user/utils.py:42
+msgid "Password reset"
+msgstr "パスワードのリセット"
+
+#: templates/registration/password_reset_form.html:23
+msgid "Reset"
+msgstr "リセット"
+
+#: templates/registration/verify_email.html:8
+msgid "You received this email because you signed up for"
+msgstr "サインアップしたため、このメールを受け取りました"
+
+#: templates/registration/verify_email.html:11
+msgid "Please follow the link to verify your email"
+msgstr "リンクに従って、メールを確認してください"
+
+#: templates/registration/verify_email.html:14
+msgid "Confirm mail"
+msgstr "メールを確認してください"
+
+#: templates/registration/verify_email.html:17
+msgid "If you did not provide your address - just ignore this letter."
+msgstr "あなたがあなたの住所を提供しなかった場合 - この手紙を無視してください。"
+
+#: user/forms.py:19 user/forms.py:20
+msgid "Confirm that you are not a robot."
+msgstr "あなたがロボットではないことを確認してください。"
+
+#: user/forms.py:21
+msgid "Pass captcha."
+msgstr "パスキャプチャ。"
+
+#: user/forms.py:29
+msgid ""
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and -/_/. characters."
+msgstr ""
+"有効なユーザー名を入力します。この値には、英語の文字、数字、および - /_/のみが含まれている場合があります。文字。"
+
+#: user/forms.py:38
+msgid ""
+"Enter a valid password. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
+msgstr ""
+"有効なパスワードを入力します。この値には、英語の文字、数字、 @/。/+/ - /_文字のみが含まれている場合があります。"
+
+#: user/forms.py:64
+#, python-format
+msgid "I accept <a class=\"reference\" href=\"%s\">the privacy policy</a>"
+msgstr "私は<a class=\"reference\" href=\"%s\">プライバシーポリシー</a>を受け入れます"
+
+#: user/forms.py:69 user/forms.py:106 user/forms.py:111 user/models.py:10
+msgid "username"
+msgstr "ユーザー名"
+
+#: user/forms.py:70 user/forms.py:141
+msgid "Email"
+msgstr "Eメール"
+
+#: user/forms.py:71 user/forms.py:107
+msgid "Password"
+msgstr "パスワード"
+
+#: user/forms.py:72
+msgid "Password confirmation"
+msgstr "パスワードの確認"
+
+#: user/forms.py:98
+#, python-format
+msgid ""
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive."
+msgstr ""
+"正しい%(username)sとパスワードを入力してください。両方のフィールドは症例に敏感である可能性があることに注意してください。"
+
+#: user/forms.py:101
+msgid "This account is inactive."
+msgstr "このアカウントは非アクティブです。"
+
+#: user/forms.py:108
+msgid "Remember me"
+msgstr "私を覚えてますか"
+
+#: user/forms.py:118
+msgid ""
+"You are asking for email confirmation too often. Please wait a bit and try "
+"again."
+msgstr ""
+"あなたはあまりにも頻繁にメールの確認を求めています。少し待って、もう一度やり直してください。"
+
+#: user/forms.py:122
+msgid "Your email address has not been verified. Check your mail."
+msgstr "メールアドレスは確認されていません。メールをチェックして下さい。"
+
+#: user/forms.py:166
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: user/forms.py:173
+msgid "New password confirmation"
+msgstr "新しいパスワードの確認"
+
+#: user/forms.py:194
+msgid "Old password"
+msgstr "以前のパスワード"
+
+#: user/forms.py:211
+msgid "The new password must be different from the old one."
+msgstr "新しいパスワードは古いパスワードとは異なる必要があります。"
+
+#: user/models.py:11
+msgid "Required. 150 characters or fewer. Letters, digits and -/_/. only."
+msgstr "必要。150文字以下。文字、数字、 - /_/。それだけ。"
+
+#: user/models.py:14
+msgid "A user with that username already exists."
+msgstr "そのユーザー名を持つユーザーが既に存在します。"
+
+#: user/models.py:15
+msgid "email address"
+msgstr "電子メールアドレス"
+
+#: user/models.py:15
+msgid "This mail is busy."
+msgstr "このメールは忙しいです。"
+
+#: user/models.py:16
+msgid "Confirmed mail"
+msgstr "確認されたメール"
+
+#: user/models.py:17
+msgid "password"
+msgstr "パスワード暗証暗号"
+
+#: user/models.py:18
+msgid "Time when the last confirmation email was sent"
+msgstr "最後の確認メールが送信された時間"
+
+#: user/utils.py:30
+msgid "Email confirmation"
+msgstr "確認確認"
+
+#: user/views.py:53
+msgid "Try again in: "
+msgstr "再試行してください："

@@ -1,0 +1,400 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-10 16:24+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: Project/settings.py:148
+msgid "English"
+msgstr "Английский"
+
+#: Project/settings.py:149
+msgid "Russia"
+msgstr "Россия"
+
+#: Project/settings.py:150
+msgid "German"
+msgstr "Немецкий"
+
+#: Project/settings.py:151
+msgid "French"
+msgstr "Французский"
+
+#: Project/settings.py:152
+msgid "Japanese"
+msgstr "Японский"
+
+#: Project/settings.py:153
+msgid "Turkish"
+msgstr "турецкий"
+
+#: Project/settings.py:154
+msgid "Ukrainian"
+msgstr "украинец"
+
+#: menu/templates/menu/hub.html:5
+msgid "Menu"
+msgstr "Меню"
+
+#: menu/templates/menu/hub.html:10
+msgid "You need to login to your account"
+msgstr "Вам нужно войти в свою учетную запись"
+
+#: menu/templates/menu/hub.html:18
+msgid "Last entrance"
+msgstr "Последний вход"
+
+#: menu/templates/menu/hub.html:19
+#: templates/registration/password_change_form.html:33
+#: templates/registration/password_reset_confirm.html:33
+#: templates/registration/password_reset_email.html:14
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: menu/templates/menu/hub.html:20
+msgid "Log out"
+msgstr "Выйти"
+
+#: policy/templates/policy/policy.html:5 policy/templates/policy/policy.html:15
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: policy/templates/policy/policy.html:17
+msgid ""
+"The privacy policy applies to the DJAuth website. The data will be processed "
+"by the agent."
+msgstr ""
+"Политика конфиденциальности распространяется на веб -сайт DJAuth.Данные будут обработаны агентом."
+
+#: policy/templates/policy/policy.html:18
+msgid "Consent is given by ticking the box on the site."
+msgstr "Согласие дается путем тикания коробки на сайте."
+
+#: policy/templates/policy/policy.html:19
+msgid "The user guarantees that he is of legal age."
+msgstr "Пользователь гарантирует, что он юридический возраст."
+
+#: policy/templates/policy/policy.html:20
+msgid ""
+"The purpose of data processing is registration and (or) provision of "
+"services."
+msgstr ""
+"Целью обработки данных является регистрация и (или) предоставление услуг."
+
+#: policy/templates/policy/policy.html:21
+msgid "Mail is being processed (automated processing method) for registration."
+msgstr "Почта обрабатывается (метод автоматической обработки) для регистрации."
+
+#: policy/templates/policy/policy.html:22
+msgid "Personal data is destroyed if the user's account becomes inactive."
+msgstr "Персональные данные разрушаются, если учетная запись пользователя становится неактивной."
+
+#: policy/templates/policy/policy.html:24
+#: templates/registration/confirm_email.html:18
+#: templates/registration/password_change_done.html:12
+#: templates/registration/password_reset_confirm.html:44
+#: templates/registration/password_reset_done.html:18
+msgid "To main"
+msgstr "На главную"
+
+#: templates/include/modal_login.html:3 templates/include/modal_login.html:10
+#: templates/include/modal_login.html:43
+#: templates/registration/invalid_verify.html:13
+#: templates/registration/login.html:5 templates/registration/login.html:10
+#: templates/registration/login.html:39 templates/registration/register.html:42
+msgid "Log in"
+msgstr "Авторизоваться"
+
+#: templates/include/modal_login.html:35 templates/registration/login.html:31
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+#: templates/include/modal_login.html:42 templates/registration/login.html:38
+#: templates/registration/register.html:5
+#: templates/registration/register.html:10
+#: templates/registration/register.html:43
+msgid "Sign up"
+msgstr "Зарегистрироваться"
+
+#: templates/registration/confirm_email.html:5
+#: templates/registration/confirm_email.html:11
+#: templates/registration/password_reset_done.html:5
+#: templates/registration/password_reset_done.html:11
+msgid "Letter sent"
+msgstr "Письмо отправлено"
+
+#: templates/registration/confirm_email.html:13
+msgid "We have sent you an email to the email address you provided."
+msgstr "Мы отправили вам электронное письмо на адрес электронной почты, который вы предоставили."
+
+#: templates/registration/confirm_email.html:14
+#: templates/registration/password_reset_done.html:14
+msgid "You should receive it soon."
+msgstr "Вы должны получить это в ближайшее время."
+
+#: templates/registration/confirm_email.html:15
+msgid ""
+"If you do not receive an email, please make sure your email address is "
+"spelled correctly and check your spam."
+msgstr ""
+"Если вы не получите электронное письмо, убедитесь, что ваш адрес электронной почты написан правильно, и проверьте ваш спам."
+
+#: templates/registration/confirm_email.html:17
+msgid "You can close this page"
+msgstr "Вы можете закрыть эту страницу"
+
+#: templates/registration/invalid_verify.html:5
+#: templates/registration/invalid_verify.html:11
+msgid "Confirmation error"
+msgstr "Ошибка подтверждения"
+
+#: templates/registration/invalid_verify.html:12
+msgid "Your link is invalid, please try again"
+msgstr "Ваша ссылка недействительна, попробуйте еще раз"
+
+#: templates/registration/password_change_done.html:5
+#: templates/registration/password_change_done.html:11
+#: templates/registration/password_reset_complete.html:5
+msgid "Password changed"
+msgstr "пароль изменен"
+
+#: templates/registration/password_change_form.html:5
+#: templates/registration/password_change_form.html:10
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_confirm.html:16
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: templates/registration/password_reset_complete.html:11
+msgid "Password recovery completed"
+msgstr "Восстановление пароля завершено"
+
+#: templates/registration/password_reset_complete.html:12
+msgid "Your password has been saved. Now you can login"
+msgstr "Ваш пароль был сохранен.Теперь вы можете войти в систему"
+
+#: templates/registration/password_reset_complete.html:13
+msgid "Log In"
+msgstr "Авторизоваться"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify it is spelled "
+"correctly."
+msgstr ""
+"Пожалуйста, введите свой новый пароль дважды, чтобы мы могли проверить его правильно."
+
+#: templates/registration/password_reset_confirm.html:40
+msgid "Invalid URL"
+msgstr "Неверная ссылка"
+
+#: templates/registration/password_reset_confirm.html:42
+msgid ""
+"The password reset link is incorrect, it may have already been used. Please "
+"request a password change again."
+msgstr ""
+"Ссылка сброса пароля неверна, она, возможно, уже использовалась.Пожалуйста, запросите смену пароля снова."
+
+#: templates/registration/password_reset_done.html:13
+msgid ""
+"We have sent you instructions on how to set a new password to the email "
+"address you provided."
+msgstr ""
+"Мы отправили вам инструкции о том, как установить новый пароль на предоставленный вами адрес электронной почты."
+
+#: templates/registration/password_reset_done.html:15
+msgid ""
+"If you do not receive an email, please make sure you enter the email address "
+"you registered with and check your spam folder."
+msgstr ""
+"Если вы не получите электронное письмо, убедитесь, что вы введите адрес электронной почты, на котором вы зарегистрировались, и проверяете папку спама."
+
+#: templates/registration/password_reset_done.html:17
+msgid "You can close this tab"
+msgstr "Вы можете закрыть эту вкладку"
+
+#: templates/registration/password_reset_email.html:8
+msgid ""
+"You’re receiving this email because you requested a password reset for your "
+"user account at"
+msgstr ""
+"Вы получаете это электронное письмо, потому что вы запросили сброс пароля для вашей учетной записи пользователя по адресу"
+
+#: templates/registration/password_reset_email.html:11
+msgid "Please go to the following page and choose a new password:"
+msgstr "Пожалуйста, перейдите на следующую страницу и выберите новый пароль:"
+
+#: templates/registration/password_reset_email.html:19
+msgid "Your username, in case you’ve forgotten:"
+msgstr "Ваше имя пользователя, если вы забыли:"
+
+#: templates/registration/password_reset_email.html:20
+msgid "Thanks for using our site!"
+msgstr "Спасибо за использование нашего сайта!"
+
+#: templates/registration/password_reset_email.html:23
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "Команда %(site_name)s"
+
+#: templates/registration/password_reset_form.html:5
+#: templates/registration/password_reset_form.html:10 user/utils.py:42
+msgid "Password reset"
+msgstr "Восстановление пароля"
+
+#: templates/registration/password_reset_form.html:23
+msgid "Reset"
+msgstr "Сбросить"
+
+#: templates/registration/verify_email.html:8
+msgid "You received this email because you signed up for"
+msgstr "Вы получили это письмо, потому что вы подписались на"
+
+#: templates/registration/verify_email.html:11
+msgid "Please follow the link to verify your email"
+msgstr "Пожалуйста, перейдите по ссылке, чтобы проверить свою электронную почту"
+
+#: templates/registration/verify_email.html:14
+msgid "Confirm mail"
+msgstr "Подтвердите почту"
+
+#: templates/registration/verify_email.html:17
+msgid "If you did not provide your address - just ignore this letter."
+msgstr "Если вы не предоставили свой адрес - просто игнорируйте это письмо."
+
+#: user/forms.py:19 user/forms.py:20
+msgid "Confirm that you are not a robot."
+msgstr "Подтвердите, что вы не робот."
+
+#: user/forms.py:21
+msgid "Pass captcha."
+msgstr "Пройти капча."
+
+#: user/forms.py:29
+msgid ""
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and -/_/. characters."
+msgstr ""
+"Введите действительное имя пользователя.Это значение может содержать только английские буквы, цифры и -/_/.персонажи."
+
+#: user/forms.py:38
+msgid ""
+"Enter a valid password. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
+msgstr ""
+"Введите действительный пароль.Это значение может содержать только английские буквы, цифры и @/./+/-/_ символы."
+
+#: user/forms.py:64
+#, python-format
+msgid "I accept <a class=\"reference\" href=\"%s\">the privacy policy</a>"
+msgstr "Я принимаю <a class=\"reference\" href=\"%s\"> Политика конфиденциальности </a>"
+
+#: user/forms.py:69 user/forms.py:106 user/forms.py:111 user/models.py:10
+msgid "username"
+msgstr "имя пользователя"
+
+#: user/forms.py:70 user/forms.py:141
+msgid "Email"
+msgstr "Электронная почта"
+
+#: user/forms.py:71 user/forms.py:107
+msgid "Password"
+msgstr "Пароль"
+
+#: user/forms.py:72
+msgid "Password confirmation"
+msgstr "Подтверждение пароля"
+
+#: user/forms.py:98
+#, python-format
+msgid ""
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive."
+msgstr ""
+"Пожалуйста, введите правильный %(username)s и пароль.Учтите что оба поля могут быть чувствительны к регистру."
+
+#: user/forms.py:101
+msgid "This account is inactive."
+msgstr "Этот аккаунт не активен."
+
+#: user/forms.py:108
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: user/forms.py:118
+msgid ""
+"You are asking for email confirmation too often. Please wait a bit and try "
+"again."
+msgstr ""
+"Вы слишком часто просите подтверждения электронной почты.Пожалуйста, подождите и попробуйте еще раз."
+
+#: user/forms.py:122
+msgid "Your email address has not been verified. Check your mail."
+msgstr "Ваш адрес электронной почты не был проверен.Проверь почту."
+
+#: user/forms.py:166
+msgid "New password"
+msgstr "Новый пароль"
+
+#: user/forms.py:173
+msgid "New password confirmation"
+msgstr "Новое подтверждение пароля"
+
+#: user/forms.py:194
+msgid "Old password"
+msgstr "Старый пароль"
+
+#: user/forms.py:211
+msgid "The new password must be different from the old one."
+msgstr "Новый пароль должен отличаться от старого."
+
+#: user/models.py:11
+msgid "Required. 150 characters or fewer. Letters, digits and -/_/. only."
+msgstr "Необходимый.150 символов или меньше.Буквы, цифры и -/_/.только."
+
+#: user/models.py:14
+msgid "A user with that username already exists."
+msgstr "Пользователь с таким именем уже существует."
+
+#: user/models.py:15
+msgid "email address"
+msgstr "Адрес электронной почты"
+
+#: user/models.py:15
+msgid "This mail is busy."
+msgstr "Эта почта занята."
+
+#: user/models.py:16
+msgid "Confirmed mail"
+msgstr "Подтвержденная почта"
+
+#: user/models.py:17
+msgid "password"
+msgstr "пароль"
+
+#: user/models.py:18
+msgid "Time when the last confirmation email was sent"
+msgstr "Время, когда было отправлено последнее подтверждение электронное письмо"
+
+#: user/utils.py:30
+msgid "Email confirmation"
+msgstr "Подтверждение электонной почты"
+
+#: user/views.py:53
+msgid "Try again in: "
+msgstr "Попробуйте еще раз через:"

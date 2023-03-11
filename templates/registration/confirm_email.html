@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% trans "Letter sent" %}{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="card mt-3 white-text">
+            <div class="card-body">
+                <h5 class="card-title">{% trans "Letter sent" %}</h5>
+                <p class="card-text">
+                    {% trans "We have sent you an email to the email address you provided." %} 
+                    {% trans "You should receive it soon." %} 
+                    {% trans "If you do not receive an email, please make sure your email address is spelled correctly and check your spam." %} 
+                </p>
+                <h6 class="card-subtitle mb-2 text-muted"><i>{% trans "You can close this page" %}</i></h6>
+                <a href="/" class="card-link reference">{% trans "To main" %}</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% load i18n %}
+
+{% autoescape off %}
+    <div style="margin-left: auto; margin-right: auto; border: 1px blueviolet solid; border-radius: 10px; width: 80%; height: auto; padding: 4%; text-align: justify; max-width: 500px;">
+        <h2 style="text-align: center; margin-top: 0;">DJAuth (TEST)</h2>
+        <hr style="border: 1px rgba(137, 43, 226, 0.466) solid;">
+        <h4 style="margin-top: 0;">
+            {% trans "You received this email because you signed up for" %}
+            <a style="text-decoration: none; color: rgb(137, 43, 226);" href="{{ domain }}">DJAuth</a>.
+        </h4>
+        <p style="margin: 0;">{% trans "Please follow the link to verify your email" %}:<br/></p>
+        <div style="text-align: center">
+            <a style="text-decoration: none; color: rgb(137, 43, 226);" href="{{ domain }}{% url 'verify_email' uidb64=uid token=token %}">
+                <b style="font-size: 20px;">{% trans "Confirm mail" %}</b>
+            </a>
+        </div>
+        <p style="font-size: 14px; margin-bottom: 0;"><i>{% trans "If you did not provide your address - just ignore this letter." %}</i></p>
+    </div>
+{% endautoescape %}

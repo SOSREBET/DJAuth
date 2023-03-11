@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-10 16:24+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: Project/settings.py:148
+msgid "English"
+msgstr "İngilizce"
+
+#: Project/settings.py:149
+msgid "Russia"
+msgstr "Rusya"
+
+#: Project/settings.py:150
+msgid "German"
+msgstr "Almanca"
+
+#: Project/settings.py:151
+msgid "French"
+msgstr "Fransızca"
+
+#: Project/settings.py:152
+msgid "Japanese"
+msgstr "Japonca"
+
+#: Project/settings.py:153
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: Project/settings.py:154
+msgid "Ukrainian"
+msgstr "Ukrayna"
+
+#: menu/templates/menu/hub.html:5
+msgid "Menu"
+msgstr "Menü"
+
+#: menu/templates/menu/hub.html:10
+msgid "You need to login to your account"
+msgstr "Hesabınıza giriş yapmanız gerekiyor"
+
+#: menu/templates/menu/hub.html:18
+msgid "Last entrance"
+msgstr "Son giriş"
+
+#: menu/templates/menu/hub.html:19
+#: templates/registration/password_change_form.html:33
+#: templates/registration/password_reset_confirm.html:33
+#: templates/registration/password_reset_email.html:14
+msgid "Change password"
+msgstr "Şifre değiştir"
+
+#: menu/templates/menu/hub.html:20
+msgid "Log out"
+msgstr "Çıkış Yap"
+
+#: policy/templates/policy/policy.html:5 policy/templates/policy/policy.html:15
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: policy/templates/policy/policy.html:17
+msgid ""
+"The privacy policy applies to the DJAuth website. The data will be processed "
+"by the agent."
+msgstr ""
+"Gizlilik politikası DJAUTH web sitesi için geçerlidir.Veriler ajan tarafından işlenecektir."
+
+#: policy/templates/policy/policy.html:18
+msgid "Consent is given by ticking the box on the site."
+msgstr "Sitedeki kutuyu işaretleyerek onay verilir."
+
+#: policy/templates/policy/policy.html:19
+msgid "The user guarantees that he is of legal age."
+msgstr "Kullanıcı yasal yaşta olduğunu garanti eder."
+
+#: policy/templates/policy/policy.html:20
+msgid ""
+"The purpose of data processing is registration and (or) provision of "
+"services."
+msgstr ""
+"Veri işlemenin amacı kayıt ve (veya) hizmetlerin sağlanmasıdır."
+
+#: policy/templates/policy/policy.html:21
+msgid "Mail is being processed (automated processing method) for registration."
+msgstr "Kayıt için posta işleniyor (otomatik işleme yöntemi)."
+
+#: policy/templates/policy/policy.html:22
+msgid "Personal data is destroyed if the user's account becomes inactive."
+msgstr "Kullanıcının hesabı aktif hale gelirse kişisel veriler yok edilir."
+
+#: policy/templates/policy/policy.html:24
+#: templates/registration/confirm_email.html:18
+#: templates/registration/password_change_done.html:12
+#: templates/registration/password_reset_confirm.html:44
+#: templates/registration/password_reset_done.html:18
+msgid "To main"
+msgstr "Ana"
+
+#: templates/include/modal_login.html:3 templates/include/modal_login.html:10
+#: templates/include/modal_login.html:43
+#: templates/registration/invalid_verify.html:13
+#: templates/registration/login.html:5 templates/registration/login.html:10
+#: templates/registration/login.html:39 templates/registration/register.html:42
+msgid "Log in"
+msgstr "Giriş yapmak"
+
+#: templates/include/modal_login.html:35 templates/registration/login.html:31
+msgid "Forgot password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: templates/include/modal_login.html:42 templates/registration/login.html:38
+#: templates/registration/register.html:5
+#: templates/registration/register.html:10
+#: templates/registration/register.html:43
+msgid "Sign up"
+msgstr "Üye olmak"
+
+#: templates/registration/confirm_email.html:5
+#: templates/registration/confirm_email.html:11
+#: templates/registration/password_reset_done.html:5
+#: templates/registration/password_reset_done.html:11
+msgid "Letter sent"
+msgstr "Gönderilen mektup"
+
+#: templates/registration/confirm_email.html:13
+msgid "We have sent you an email to the email address you provided."
+msgstr "Size sağladığınız e -posta adresine bir e -posta gönderdik."
+
+#: templates/registration/confirm_email.html:14
+#: templates/registration/password_reset_done.html:14
+msgid "You should receive it soon."
+msgstr "Yakında almalısın."
+
+#: templates/registration/confirm_email.html:15
+msgid ""
+"If you do not receive an email, please make sure your email address is "
+"spelled correctly and check your spam."
+msgstr ""
+"Bir e -posta almazsanız, lütfen e -posta adresinizin doğru yazıldığından emin olun ve spam'inizi kontrol edin."
+
+#: templates/registration/confirm_email.html:17
+msgid "You can close this page"
+msgstr "Bu sayfayı kapatabilirsiniz"
+
+#: templates/registration/invalid_verify.html:5
+#: templates/registration/invalid_verify.html:11
+msgid "Confirmation error"
+msgstr "Onay hatası"
+
+#: templates/registration/invalid_verify.html:12
+msgid "Your link is invalid, please try again"
+msgstr "Bağlantınız geçersiz, lütfen tekrar deneyin"
+
+#: templates/registration/password_change_done.html:5
+#: templates/registration/password_change_done.html:11
+#: templates/registration/password_reset_complete.html:5
+msgid "Password changed"
+msgstr "şifre değişti"
+
+#: templates/registration/password_change_form.html:5
+#: templates/registration/password_change_form.html:10
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_confirm.html:16
+msgid "New Password"
+msgstr "Yeni Şifre"
+
+#: templates/registration/password_reset_complete.html:11
+msgid "Password recovery completed"
+msgstr "Şifre Kurtarma tamamlandı"
+
+#: templates/registration/password_reset_complete.html:12
+msgid "Your password has been saved. Now you can login"
+msgstr "Şifreniz kaydedildi.Şimdi giriş yapabilirsin"
+
+#: templates/registration/password_reset_complete.html:13
+msgid "Log In"
+msgstr "Giriş yapmak"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify it is spelled "
+"correctly."
+msgstr ""
+"Doğru yazıldığını doğrulayabilmemiz için lütfen yeni şifrenizi iki kez girin."
+
+#: templates/registration/password_reset_confirm.html:40
+msgid "Invalid URL"
+msgstr "Geçersiz URL"
+
+#: templates/registration/password_reset_confirm.html:42
+msgid ""
+"The password reset link is incorrect, it may have already been used. Please "
+"request a password change again."
+msgstr ""
+"Parola sıfırlama bağlantısı yanlış, zaten kullanılmış olabilir.Lütfen tekrar şifre değişikliği isteyin."
+
+#: templates/registration/password_reset_done.html:13
+msgid ""
+"We have sent you instructions on how to set a new password to the email "
+"address you provided."
+msgstr ""
+"Size sağladığınız e -posta adresine nasıl yeni bir şifre ayarlayacağınız konusunda size talimatlar gönderdik."
+
+#: templates/registration/password_reset_done.html:15
+msgid ""
+"If you do not receive an email, please make sure you enter the email address "
+"you registered with and check your spam folder."
+msgstr ""
+"Bir e -posta almazsanız, lütfen kayıt yaptığınız e -posta adresini girdiğinizden ve spam klasörünüzü kontrol ettiğinizden emin olun."
+
+#: templates/registration/password_reset_done.html:17
+msgid "You can close this tab"
+msgstr "Bu sekmeyi kapatabilirsiniz"
+
+#: templates/registration/password_reset_email.html:8
+msgid ""
+"You’re receiving this email because you requested a password reset for your "
+"user account at"
+msgstr ""
+"Bu e -postayı alıyorsunuz çünkü kullanıcı hesabınız için bir şifre sıfırlama talebinde bulunuyorsunuz."
+
+#: templates/registration/password_reset_email.html:11
+msgid "Please go to the following page and choose a new password:"
+msgstr "Lütfen bir sonraki sayfaya gidin ve yeni bir şifre seçin:"
+
+#: templates/registration/password_reset_email.html:19
+msgid "Your username, in case you’ve forgotten:"
+msgstr "Unutmuş olmanız durumunda kullanıcı adınız:"
+
+#: templates/registration/password_reset_email.html:20
+msgid "Thanks for using our site!"
+msgstr "Sitemizi kullandığınız için teşekkürler!"
+
+#: templates/registration/password_reset_email.html:23
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "%(site_name)s ekibi"
+
+#: templates/registration/password_reset_form.html:5
+#: templates/registration/password_reset_form.html:10 user/utils.py:42
+msgid "Password reset"
+msgstr "Parola sıfırlama"
+
+#: templates/registration/password_reset_form.html:23
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: templates/registration/verify_email.html:8
+msgid "You received this email because you signed up for"
+msgstr "Bu e -postayı aldınız çünkü kaydolduğunuz için"
+
+#: templates/registration/verify_email.html:11
+msgid "Please follow the link to verify your email"
+msgstr "E -postanızı doğrulamak için lütfen bağlantıyı takip edin"
+
+#: templates/registration/verify_email.html:14
+msgid "Confirm mail"
+msgstr "Posta onaylayın"
+
+#: templates/registration/verify_email.html:17
+msgid "If you did not provide your address - just ignore this letter."
+msgstr "Adresinizi vermediyseniz - bu mektubu görmezden gelin."
+
+#: user/forms.py:19 user/forms.py:20
+msgid "Confirm that you are not a robot."
+msgstr "Robot olmadığınızı onaylayın."
+
+#: user/forms.py:21
+msgid "Pass captcha."
+msgstr "Pass captcha."
+
+#: user/forms.py:29
+msgid ""
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and -/_/. characters."
+msgstr ""
+"Geçerli bir kullanıcı adı girin.Bu değer yalnızca İngilizce harfler, sayılar ve -/_/içerebilir.karakterler."
+
+#: user/forms.py:38
+msgid ""
+"Enter a valid password. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
+msgstr ""
+"Geçerli bir şifre girin.Bu değer yalnızca İngilizce harfler, sayılar ve @/./+/-/_ karakterler içerebilir."
+
+#: user/forms.py:64
+#, python-format
+msgid "I accept <a class=\"reference\" href=\"%s\">the privacy policy</a>"
+msgstr "<a class=\"reference\" href=\"%s\"> Gizlilik Politikasını kabul ediyorum </a>"
+
+#: user/forms.py:69 user/forms.py:106 user/forms.py:111 user/models.py:10
+msgid "username"
+msgstr "Kullanıcı adı"
+
+#: user/forms.py:70 user/forms.py:141
+msgid "Email"
+msgstr "E -posta"
+
+#: user/forms.py:71 user/forms.py:107
+msgid "Password"
+msgstr "Şifre"
+
+#: user/forms.py:72
+msgid "Password confirmation"
+msgstr "Şifre onayı"
+
+#: user/forms.py:98
+#, python-format
+msgid ""
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive."
+msgstr ""
+"Lütfen doğru bir %(username)s ve şifre girin.Her iki alanın da büyük / küçük harfe duyarlı olabileceğini unutmayın."
+
+#: user/forms.py:101
+msgid "This account is inactive."
+msgstr "Bu hesap aktif değildir."
+
+#: user/forms.py:108
+msgid "Remember me"
+msgstr "Beni Hatırla"
+
+#: user/forms.py:118
+msgid ""
+"You are asking for email confirmation too often. Please wait a bit and try "
+"again."
+msgstr ""
+"Çok sık e -posta onayı istiyorsunuz.Lütfen biraz bekleyin ve tekrar deneyin."
+
+#: user/forms.py:122
+msgid "Your email address has not been verified. Check your mail."
+msgstr "E -posta adresiniz doğrulanmadı.Mailini kontrol et."
+
+#: user/forms.py:166
+msgid "New password"
+msgstr "Yeni Şifre"
+
+#: user/forms.py:173
+msgid "New password confirmation"
+msgstr "Yeni parola onayı"
+
+#: user/forms.py:194
+msgid "Old password"
+msgstr "Eski Şifre"
+
+#: user/forms.py:211
+msgid "The new password must be different from the old one."
+msgstr "Yeni şifre eskisinden farklı olmalıdır."
+
+#: user/models.py:11
+msgid "Required. 150 characters or fewer. Letters, digits and -/_/. only."
+msgstr "Gerekli.150 karakter veya daha az.Harfler, rakamlar ve -/_/.sadece."
+
+#: user/models.py:14
+msgid "A user with that username already exists."
+msgstr "Bir kullanıcı bu ismi zaten kulanıyor."
+
+#: user/models.py:15
+msgid "email address"
+msgstr "E -posta adresi"
+
+#: user/models.py:15
+msgid "This mail is busy."
+msgstr "Bu posta meşgul."
+
+#: user/models.py:16
+msgid "Confirmed mail"
+msgstr "Onaylanmış posta"
+
+#: user/models.py:17
+msgid "password"
+msgstr "şifre"
+
+#: user/models.py:18
+msgid "Time when the last confirmation email was sent"
+msgstr "Son onay e -postasının gönderildiği zaman"
+
+#: user/utils.py:30
+msgid "Email confirmation"
+msgstr "E-posta Onayı"
+
+#: user/views.py:53
+msgid "Try again in: "
+msgstr "Tekrar deneyin:"

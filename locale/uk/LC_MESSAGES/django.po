@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-10 16:24+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+#: Project/settings.py:148
+msgid "English"
+msgstr "Англійська мова"
+
+#: Project/settings.py:149
+msgid "Russia"
+msgstr "Росія"
+
+#: Project/settings.py:150
+msgid "German"
+msgstr "Німецький"
+
+#: Project/settings.py:151
+msgid "French"
+msgstr "Французький"
+
+#: Project/settings.py:152
+msgid "Japanese"
+msgstr "Японський"
+
+#: Project/settings.py:153
+msgid "Turkish"
+msgstr "Турецький"
+
+#: Project/settings.py:154
+msgid "Ukrainian"
+msgstr "Український"
+
+#: menu/templates/menu/hub.html:5
+msgid "Menu"
+msgstr "Меню"
+
+#: menu/templates/menu/hub.html:10
+msgid "You need to login to your account"
+msgstr "Вам потрібно увійти до свого облікового запису"
+
+#: menu/templates/menu/hub.html:18
+msgid "Last entrance"
+msgstr "Останній вхід"
+
+#: menu/templates/menu/hub.html:19
+#: templates/registration/password_change_form.html:33
+#: templates/registration/password_reset_confirm.html:33
+#: templates/registration/password_reset_email.html:14
+msgid "Change password"
+msgstr "Змінити пароль"
+
+#: menu/templates/menu/hub.html:20
+msgid "Log out"
+msgstr "Вийти"
+
+#: policy/templates/policy/policy.html:5 policy/templates/policy/policy.html:15
+msgid "Privacy Policy"
+msgstr "Політика конфіденційності"
+
+#: policy/templates/policy/policy.html:17
+msgid ""
+"The privacy policy applies to the DJAuth website. The data will be processed "
+"by the agent."
+msgstr ""
+"Політика конфіденційності застосовується до веб -сайту Djauth.Дані будуть оброблені агентом."
+
+#: policy/templates/policy/policy.html:18
+msgid "Consent is given by ticking the box on the site."
+msgstr "Згода надається, тикнув коробку на сайті."
+
+#: policy/templates/policy/policy.html:19
+msgid "The user guarantees that he is of legal age."
+msgstr "Користувач гарантує, що він законний."
+
+#: policy/templates/policy/policy.html:20
+msgid ""
+"The purpose of data processing is registration and (or) provision of "
+"services."
+msgstr ""
+"Метою обробки даних є реєстрація та (або) надання послуг."
+
+#: policy/templates/policy/policy.html:21
+msgid "Mail is being processed (automated processing method) for registration."
+msgstr "Пошта обробляється (метод автоматизованої обробки) для реєстрації."
+
+#: policy/templates/policy/policy.html:22
+msgid "Personal data is destroyed if the user's account becomes inactive."
+msgstr "Особисті дані руйнуються, якщо обліковий запис користувача стане неактивним."
+
+#: policy/templates/policy/policy.html:24
+#: templates/registration/confirm_email.html:18
+#: templates/registration/password_change_done.html:12
+#: templates/registration/password_reset_confirm.html:44
+#: templates/registration/password_reset_done.html:18
+msgid "To main"
+msgstr "До головного"
+
+#: templates/include/modal_login.html:3 templates/include/modal_login.html:10
+#: templates/include/modal_login.html:43
+#: templates/registration/invalid_verify.html:13
+#: templates/registration/login.html:5 templates/registration/login.html:10
+#: templates/registration/login.html:39 templates/registration/register.html:42
+msgid "Log in"
+msgstr "Увійти"
+
+#: templates/include/modal_login.html:35 templates/registration/login.html:31
+msgid "Forgot password?"
+msgstr "Забули пароль?"
+
+#: templates/include/modal_login.html:42 templates/registration/login.html:38
+#: templates/registration/register.html:5
+#: templates/registration/register.html:10
+#: templates/registration/register.html:43
+msgid "Sign up"
+msgstr "Зареєструватися"
+
+#: templates/registration/confirm_email.html:5
+#: templates/registration/confirm_email.html:11
+#: templates/registration/password_reset_done.html:5
+#: templates/registration/password_reset_done.html:11
+msgid "Letter sent"
+msgstr "Надісланий лист"
+
+#: templates/registration/confirm_email.html:13
+msgid "We have sent you an email to the email address you provided."
+msgstr "Ми надіслали вам електронний лист на надану вами електронну адресу."
+
+#: templates/registration/confirm_email.html:14
+#: templates/registration/password_reset_done.html:14
+msgid "You should receive it soon."
+msgstr "Ви повинні отримати його найближчим часом."
+
+#: templates/registration/confirm_email.html:15
+msgid ""
+"If you do not receive an email, please make sure your email address is "
+"spelled correctly and check your spam."
+msgstr ""
+"Якщо ви не отримуєте електронний лист, переконайтеся, що ваша електронна адреса написана правильно та перевірте свій спам."
+
+#: templates/registration/confirm_email.html:17
+msgid "You can close this page"
+msgstr "Ви можете закрити цю сторінку"
+
+#: templates/registration/invalid_verify.html:5
+#: templates/registration/invalid_verify.html:11
+msgid "Confirmation error"
+msgstr "Помилка підтвердження"
+
+#: templates/registration/invalid_verify.html:12
+msgid "Your link is invalid, please try again"
+msgstr "Ваше посилання недійсне, спробуйте ще раз"
+
+#: templates/registration/password_change_done.html:5
+#: templates/registration/password_change_done.html:11
+#: templates/registration/password_reset_complete.html:5
+msgid "Password changed"
+msgstr "Змінено пароль"
+
+#: templates/registration/password_change_form.html:5
+#: templates/registration/password_change_form.html:10
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_confirm.html:16
+msgid "New Password"
+msgstr "Новий пароль"
+
+#: templates/registration/password_reset_complete.html:11
+msgid "Password recovery completed"
+msgstr "Відновлення пароля завершено"
+
+#: templates/registration/password_reset_complete.html:12
+msgid "Your password has been saved. Now you can login"
+msgstr "Ваш пароль збережений.Тепер ви можете увійти"
+
+#: templates/registration/password_reset_complete.html:13
+msgid "Log In"
+msgstr "Увійти"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid ""
+"Please enter your new password twice so we can verify it is spelled "
+"correctly."
+msgstr ""
+"Будь ласка, введіть свій новий пароль двічі, щоб ми могли перевірити його правильно."
+
+#: templates/registration/password_reset_confirm.html:40
+msgid "Invalid URL"
+msgstr "Недійсна URL -адреса"
+
+#: templates/registration/password_reset_confirm.html:42
+msgid ""
+"The password reset link is incorrect, it may have already been used. Please "
+"request a password change again."
+msgstr ""
+"Посилання на скидання пароля є невірним, воно, можливо, вже використовувалося.Будь ласка, подайте запит на зміну пароля ще раз."
+
+#: templates/registration/password_reset_done.html:13
+msgid ""
+"We have sent you instructions on how to set a new password to the email "
+"address you provided."
+msgstr ""
+"Ми надіслали вам інструкції щодо встановлення нового пароля на надану вами електронну адресу."
+
+#: templates/registration/password_reset_done.html:15
+msgid ""
+"If you do not receive an email, please make sure you enter the email address "
+"you registered with and check your spam folder."
+msgstr ""
+"Якщо ви не отримуєте електронний лист, переконайтеся, що ви вводите електронну адресу, з якою ви зареєстровані, та перевірте свою папку спаму."
+
+#: templates/registration/password_reset_done.html:17
+msgid "You can close this tab"
+msgstr "Ви можете закрити цю вкладку"
+
+#: templates/registration/password_reset_email.html:8
+msgid ""
+"You’re receiving this email because you requested a password reset for your "
+"user account at"
+msgstr ""
+"Ви отримуєте цей електронний лист, оскільки ви попросили скидання пароля для свого облікового запису за адресою"
+
+#: templates/registration/password_reset_email.html:11
+msgid "Please go to the following page and choose a new password:"
+msgstr "Будь ласка, перейдіть на наступну сторінку та виберіть новий пароль:"
+
+#: templates/registration/password_reset_email.html:19
+msgid "Your username, in case you’ve forgotten:"
+msgstr "Ваше ім'я користувача, якщо ви забули:"
+
+#: templates/registration/password_reset_email.html:20
+msgid "Thanks for using our site!"
+msgstr "Дякуємо за використання нашого сайту!"
+
+#: templates/registration/password_reset_email.html:23
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "Команда %(site_name)s"
+
+#: templates/registration/password_reset_form.html:5
+#: templates/registration/password_reset_form.html:10 user/utils.py:42
+msgid "Password reset"
+msgstr "Скидання пароля"
+
+#: templates/registration/password_reset_form.html:23
+msgid "Reset"
+msgstr "Скинути"
+
+#: templates/registration/verify_email.html:8
+msgid "You received this email because you signed up for"
+msgstr "Ви отримали цей електронний лист, тому що ви зареєструвалися"
+
+#: templates/registration/verify_email.html:11
+msgid "Please follow the link to verify your email"
+msgstr "Будь ласка, перейдіть за посиланням, щоб перевірити свою електронну пошту"
+
+#: templates/registration/verify_email.html:14
+msgid "Confirm mail"
+msgstr "Підтвердити пошту"
+
+#: templates/registration/verify_email.html:17
+msgid "If you did not provide your address - just ignore this letter."
+msgstr "Якщо ви не надали свою адресу - просто ігноруйте цей лист."
+
+#: user/forms.py:19 user/forms.py:20
+msgid "Confirm that you are not a robot."
+msgstr "Підтвердити, що ви не робот."
+
+#: user/forms.py:21
+msgid "Pass captcha."
+msgstr "Передайте капчу."
+
+#: user/forms.py:29
+msgid ""
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and -/_/. characters."
+msgstr ""
+"Введіть дійсне ім'я користувача.Це значення може містити лише англійські літери, цифри та -/_/.персонажі."
+
+#: user/forms.py:38
+msgid ""
+"Enter a valid password. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
+msgstr ""
+"Введіть дійсний пароль.Це значення може містити лише англійські літери, цифри та @/./+/-/_ символів."
+
+#: user/forms.py:64
+#, python-format
+msgid "I accept <a class=\"reference\" href=\"%s\">the privacy policy</a>"
+msgstr "Я приймаю <a class=\"reference\" href=\"%s\"> Політика конфіденційності </a>"
+
+#: user/forms.py:69 user/forms.py:106 user/forms.py:111 user/models.py:10
+msgid "username"
+msgstr "Ім'я користувача"
+
+#: user/forms.py:70 user/forms.py:141
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: user/forms.py:71 user/forms.py:107
+msgid "Password"
+msgstr "Пароль"
+
+#: user/forms.py:72
+msgid "Password confirmation"
+msgstr "Підтвердження паролю"
+
+#: user/forms.py:98
+#, python-format
+msgid ""
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive."
+msgstr ""
+"Введіть правильний %(username)s та пароль.Врахуйте що обидва поля можуть бути чутливі до регістру."
+
+#: user/forms.py:101
+msgid "This account is inactive."
+msgstr "Цей рахунок неактивний."
+
+#: user/forms.py:108
+msgid "Remember me"
+msgstr "Пам'ятай мене"
+
+#: user/forms.py:118
+msgid ""
+"You are asking for email confirmation too often. Please wait a bit and try "
+"again."
+msgstr ""
+"Ви просите підтвердження електронної пошти занадто часто.Зачекайте трохи і спробуйте ще раз."
+
+#: user/forms.py:122
+msgid "Your email address has not been verified. Check your mail."
+msgstr "Ваша електронна адреса не була перевірена.Перевірте свою пошту."
+
+#: user/forms.py:166
+msgid "New password"
+msgstr "Новий пароль"
+
+#: user/forms.py:173
+msgid "New password confirmation"
+msgstr "Нове підтвердження пароля"
+
+#: user/forms.py:194
+msgid "Old password"
+msgstr "Старий пароль"
+
+#: user/forms.py:211
+msgid "The new password must be different from the old one."
+msgstr "Новий пароль повинен відрізнятися від старого."
+
+#: user/models.py:11
+msgid "Required. 150 characters or fewer. Letters, digits and -/_/. only."
+msgstr "Вимагається.150 символів або менше.Листи, цифри та -/_/.Тільки."
+
+#: user/models.py:14
+msgid "A user with that username already exists."
+msgstr "Користувач із таким ім'ям вже існує."
+
+#: user/models.py:15
+msgid "email address"
+msgstr "адреса електронної пошти"
+
+#: user/models.py:15
+msgid "This mail is busy."
+msgstr "Ця пошта зайнята."
+
+#: user/models.py:16
+msgid "Confirmed mail"
+msgstr "Підтверджена пошта"
+
+#: user/models.py:17
+msgid "password"
+msgstr "пароль"
+
+#: user/models.py:18
+msgid "Time when the last confirmation email was sent"
+msgstr "Час, коли був надісланий останній електронний лист із підтвердженням"
+
+#: user/utils.py:30
+msgid "Email confirmation"
+msgstr "Підтвердження електронної пошти"
+
+#: user/views.py:53
+msgid "Try again in: "
+msgstr "Спробуйте ще раз у:"

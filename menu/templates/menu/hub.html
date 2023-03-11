@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block title %}{% trans 'Menu' %}{% endblock %}
+
+{% block content %}  
+    {% if not user.is_authenticated %}
+        <div class="d-flex justify-between gap-3">
+            <h2 class="white-text">{% trans "You need to login to your account" %}</h2>
+            {% include 'include/modal_login.html' %}
+        </div>
+    {% else %}
+        <div class="card mt-3">
+            <div class="card-body white-text">
+                <h5 class="card-title">{{ user.username }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ user.email }}</h6>
+                <p class="card-text">{% trans "Last entrance" %}: {{ user.last_login }}</p>
+                <a href="{% url 'password_change' %}" class="reference card-link">{% trans "Change password" %}</a>
+                <a href="{% url 'logout' %}" class="reference card-link">{% trans "Log out" %}</a>
+            </div>
+        </div>
+    {% endif %}
+
+{% endblock %}
+
