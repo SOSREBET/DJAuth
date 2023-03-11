@@ -7,7 +7,6 @@ The purpose of this project is to provide a django project template with authori
 
 The template is based on django 4.1 and python 3.9.
 
-<br>
 
 ## Main features
 - App with custom user model
