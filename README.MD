@@ -1,5 +1,5 @@
 ## Introduction
-___
+
 The purpose of this project is to provide a django project template with authorization, authentication, etc. This template can be used by anyone. The template is fully customizable.
 
 The template is based on django 4.1 and python 3.9.
@@ -23,7 +23,6 @@ The template is based on django 4.1 and python 3.9.
 <br>
 
 ## Forms
-___
 
 All forms are submitted using Ajax. Implemented a little spam protection for sending requests from forms:
 all "submit" buttons have been converted into regular buttons, which check all filled fields for errors before submitting. Example: 1 field is not filled, 2 is filled, but with an error - when you click on the "submit" button, the form will not be sent until the user fills in *all the fields correctly*.
@@ -83,8 +82,6 @@ Includes next fields:
 - New password confirmation
 
 <br>
-
-__________________________________________________________________________________
 
 ## Sending letters
 
