@@ -1,12 +1,10 @@
-
-
 ## Introduction
-
 ___
 The purpose of this project is to provide a django project template with authorization, authentication, etc. This template can be used by anyone. The template is fully customizable.
 
 The template is based on django 4.1 and python 3.9.
 
+<br>
 
 ## Main features
 - App with custom user model
