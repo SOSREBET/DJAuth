@@ -15,7 +15,7 @@ The template is based on django 4.1 and python 3.9.
 - All html Templates for registration, authorization, etc.
 - JS form validators
 - ReCaptcha v2 (checkbox)
-- Postgresql
+- PostgreSQL
 - The project supports 6 languages: de, fr, ja, ru, tr, uk (translated using GT).
 
 ## Forms
@@ -75,3 +75,11 @@ There is also protection against an attack on sending emails: a delay that is co
 ## Project Settings
 All project settings are taken from the "conf.txt" file.
 The repository has a file "confEXAMPLE.txt" - with a minimum of constants.
+
+## Getting Started
+
+Since the project is made on PostgreSQL, you must have it [installed](https://www.postgresql.org/download/). You can also use another [database](https://docs.djangoproject.com/en/4.1/ref/databases/.).
+
+You also need to install the [redis](https://redis.io/docs/getting-started/) broker. If you use another broker, then the settings in settings.py will be different + another pip library
+
+Create db
