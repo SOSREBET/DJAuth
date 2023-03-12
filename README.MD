@@ -1,3 +1,4 @@
+IT IS NOT FULL
 ## Introduction
 
 The purpose of this project is to provide a django project template with authorization, authentication, etc. This template can be used by anyone. The template is fully customizable.
