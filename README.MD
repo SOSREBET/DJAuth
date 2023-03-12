@@ -1,4 +1,3 @@
-IT IS NOT FULL
 ## Introduction
 
 The purpose of this project is to provide a django project template with authorization, authentication, etc. This template can be used by anyone. The template is fully customizable.
@@ -6,14 +5,16 @@ The purpose of this project is to provide a django project template with authori
 The template is based on django 4.1 and python 3.9.
 
 ## Main features
+
 - App with custom user model
-- Forms
+- Ajax forms
   - Authorization
   - Registration
   - Password change
   - Password reset 
   - Password reset confirm
 - All html Templates for registration, authorization, etc.
+- BootStrap 5
 - JS form validators
 - ReCaptcha v2 (checkbox)
 - PostgreSQL
@@ -74,13 +75,83 @@ All emails (confirmation of the email and password reset) are sent using celery 
 There is also protection against an attack on sending emails: a delay that is configured in settings.py
 
 ## Project Settings
+
 All project settings are taken from the "conf.txt" file.
 The repository has a file "confEXAMPLE.txt" - with a minimum of constants.
 
+## Requirements
+
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [Redis](https://redis.io/docs/getting-started/)
+
+You can also use [another database](https://docs.djangoproject.com/en/4.1/ref/databases/.) and another broker.
+
+> Note that requirements.py already contains libraries for working with PostgreSQL and Redis.
+
 ## Getting Started
 
-Since the project is made on PostgreSQL, you must have it [installed](https://www.postgresql.org/download/). You can also use another [database](https://docs.djangoproject.com/en/4.1/ref/databases/.).
+1. Create a PostgreSQL database, then exit postgres (CTRL + d):
+  
+  ```bash
+  foo@bar:~$ sudo -i -u postgres
+  postgres@bar:~$ createdb Auth
+  ```
+  
+2. Create a virtual environment and activate it:
 
-You also need to install the [redis](https://redis.io/docs/getting-started/) broker. If you use another broker, then the settings in settings.py will be different + another pip library
+  ```bash
+  foo@bar:~$ python3.9 -m venv venv
+  foo@bar:~$ source venv/bin/activate
+  ```
 
-Create db
+3. Clone the repository from Github and switch to the new directory:
+  ```bash
+  (venv) foo@bar:~$ git clone https://github.com/SOSREBET/DJAuth
+  (venv) foo@bar:~$ cd DJAuth/
+  ```
+
+4. Install project dependencies:
+  
+  ```bash
+  (venv) foo@bar:~/DJAuth$ pip install -r requirements.txt
+  ```
+
+5. Rename "confEXAMPLE.txt" to "conf.txt" and **fill in each field**:
+
+  ```bash
+  (venv) foo@bar:~/DJAuth$ mv confEXAMPLE.txt conf.txt
+  ```
+
+  You can get the values for `RECAPTCHA_PUBLIC_KEY` and `RECAPTCHA_PRIVATE_KEY` [here](https://www.google.com/recaptcha/admin).
+
+  If you want to use Console Backend sending email [see here](https://docs.djangoproject.com/en/4.1/topics/email/#console-backend).
+
+6. Create migrations and apply them:
+
+  ```bash
+  (venv) foo@bar:~/DJAuth$ python3 manage.py makemigrations
+  (venv) foo@bar:~/DJAuth$ python3 manage.py migrate
+  ```
+
+7. Now you can start the server:
+
+  ```bash
+  (venv) foo@bar:~/DJAuth$ python3 manage.py runserver
+  ```
+  
+  To send emails you need to open 2 more terminal windows.
+
+  Start Redis in the first window
+
+  ```bash
+  foo@bar:~$ sudo service redis-server start
+  foo@bar:~$ redis-cli
+  ```
+
+  In the second run celery worker (*don't forget to activate virtual environment*)
+
+  ```bash
+  (venv) foo@bar:~/DJAuth$ celery -A Project worker -l info
+  ```
+
+Bug reports are welcome
