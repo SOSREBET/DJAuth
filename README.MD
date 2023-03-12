@@ -83,6 +83,8 @@ The repository has a file "confEXAMPLE.txt" - with a minimum of constants.
 
 - [PostgreSQL](https://www.postgresql.org/download/)
 - [Redis](https://redis.io/docs/getting-started/)
+- [ReCaptcha](https://developers.google.com/recaptcha/intro)
+- Any smtp
 
 You can also use [another database](https://docs.djangoproject.com/en/4.1/ref/databases/.) and another broker.
 
