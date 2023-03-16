@@ -18,7 +18,7 @@ The template is based on django 4.1 and python 3.9.
 - JS form validators
 - ReCaptcha v2 (checkbox)
 - PostgreSQL
-- The project supports 6 languages: de, fr, ja, ru, tr, uk (translated using GT).
+- The project supports 6 languages: de, fr, ja, ru, tr, uk (translated using [my script](https://github.com/SOSREBET/DJTranslator/)).
 
 ## Forms
 
