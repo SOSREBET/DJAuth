@@ -155,7 +155,5 @@ You can also use [another database](https://docs.djangoproject.com/en/4.1/ref/da
   ```bash
   (venv) foo@bar:~/DJAuth$ celery -A Project worker -l info
   ```
- 
-> Note that sometimes GT can make mistakes, but compilemessages will let you know.
 
 Bug reports are welcome
