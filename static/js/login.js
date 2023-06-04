@@ -70,11 +70,11 @@ $('#LSubmit').click(function(e) {
     if (document.querySelector('#LForm .is-invalid')) {
         found = true
     } else {
-        if (username.value.length <= 6) {
+        if (username.value.length < 6) {
             found = true
             $('#LUsername').addClass('is-invalid')
         }
-        if (password.value.length <= 8) {
+        if (password.value.length < 8) {
             found = true
             $('#LPassword').addClass('is-invalid')
         }    
